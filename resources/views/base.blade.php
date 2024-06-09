@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- {{-- title --}} -->
     <title>Young Toriven Club | @yield('title')</title>
+
+    {{-- logo icon --}}
+    <link rel="icon" type="image/x-icon" href="{{asset('assets/img/ytc-logo.png')}}">
+
     {{-- CSS Connection --}}
     <link rel="stylesheet" href=" {{asset('assets/css/style.css')}} ">
 
@@ -16,7 +22,8 @@
         @yield('body')
     </div>
 
-{{-- JS Connection --}}
+<!-- {{-- JS Connection --}} -->
 <script src=" {{asset('assets/css/style.css')}} "></script>
+
 </body>
 </html>
