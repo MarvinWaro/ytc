@@ -3,9 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.signin');
 });
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/s', function () {
+    return view('auth.signup');
 });
